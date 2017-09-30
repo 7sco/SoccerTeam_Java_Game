@@ -1,0 +1,38 @@
+Exercise 10: Crear un programa para simular un equipo de futbol (Futbolista, Entrenador y doctor), para la cual tendremos los siguiente:
+-Una super Clase Persona, que tendrá los siguientes datos:
+	nombre
+	apellido
+	edad
+-La sub clase Futbolista  que tenga los siguientes datos:
+	dorsal
+	posicion
+-la sub clase Entrenador tendrá de dato la estrategia que utiliza
+-La sub clase Doctor,
+	titulación
+	Anos de experience
+
+Hacer un menu donde se tenga las siguientes opciones:
+	Viaje de equipo
+	entrenamiento
+	partido de futbol
+	planificar Entrenamiento
+	entrevista
+	curar lesion
+
+Persona = abstract
+#nombre:String
+#apellidos:String
+#edad: int
+
++viajar():void			//Todos viajan igual no se necesita cambiar esta opción en subclases
++partidoFutbol():void     = abstract	//cada uno hace algo diferente en un partido de futbol//Al tener dos métodos abstractos persona pasa a ser abstracta
++entrenamiento():void   = abstract	// cada uno hace algo diferente en un entrenamiento//Al tener dos métodos abstractos persona pasa a ser
+
+
+Futbolista						Entrenador					Medico
+-dorsal:int					-estrategia:String				-titulacion:String
+position:String												-anosExperiencia:int
+
++entrevista():void				+planificarEntrenamiento():void	+curarLesion():void
+//Solo Futbolista puede 			//Solo entrenador planifica 		//Solo medico puede curar lesion
+dar entrevistas				el entrenamiento
