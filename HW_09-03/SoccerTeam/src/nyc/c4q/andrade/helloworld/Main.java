@@ -20,6 +20,28 @@ public class Main {
 
 
         //Print Welcome Mesage
+        System.out.println("\n" +
+                " _    _        _                                                                 \n" +
+                "| |  | |      | |                                                                \n" +
+                "| |  | |  ___ | |  ___  ___   _ __ ___    ___                                    \n" +
+                "| |/\\| | / _ \\| | / __|/ _ \\ | '_ ` _ \\  / _ \\                                   \n" +
+                "\\  /\\  /|  __/| || (__| (_) || | | | | ||  __/                                   \n" +
+                " \\/  \\/  \\___||_| \\___|\\___/ |_| |_| |_| \\___|                                   \n" +
+                            "            _____                                                                \n" +
+                            "           |_   _|                                                               \n" +
+                            "             | |  ___                                                            \n" +
+                            "             | | / _ \\                                                           \n" +
+                            "             | || (_) |                                                          \n" +
+                            "             \\_/ \\___/                                                           \n" +
+                " _____    ___  _____  ______       _    _             _   _____  _         _     \n" +
+                "/  __ \\  /   ||  _  | |  ___|     | |  | |           | | /  __ \\| |       | |    \n" +
+                "| /  \\/ / /| || | | | | |_  _   _ | |_ | |__    ___  | | | /  \\/| | _   _ | |__  \n" +
+                "| |    / /_| || | | | |  _|| | | || __|| '_ \\  / _ \\ | | | |    | || | | || '_ \\ \n" +
+                "| \\__/\\\\___  |\\ \\/' / | |  | |_| || |_ | |_) || (_) || | | \\__/\\| || |_| || |_) |\n" +
+                " \\____/    |_/ \\_/\\_\\ \\_|   \\__,_| \\__||_.__/  \\___/ |_|  \\____/|_| \\__,_||_.__/ \n" +
+                "                                                                                 \n" +
+                "                                                                                 \n");
+
         System.out.println("\n\t\t\t\t\t\t\t\t\t\t\tHello, Welcome to C4Q Futbol Club.\n\n" +
                 "\t\t\t\t\t\tWe are starting our season and have a different roles for each person in the Club. \n" +
                 "\t\t\t\tWe need to know what role each person has, so please follow the Menu to know what role everybody has:\n");
